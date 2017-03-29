@@ -1,0 +1,77 @@
+
+
+
+
+@media screen and (min-width:600px) {
+  
+      .icon-search-voice {
+      background-image: url(../img/Voice-icon.png);
+      background-size: 24px;
+      background-repeat: no-repeat;
+      background-position: right center;
+      cursor: pointer;
+    }
+  
+}
+
+
+
+@media screen and (max-width: 600px) {
+  
+  /* HEADER */
+  
+  li:nth-child(-n + 2) {
+    display: none;
+  }
+  
+  ul {
+    margin-right: 0;
+  }
+  
+  .sign-in-button {
+    padding: 8px 18px;
+  }
+  
+ 
+  
+  /* LOGO */
+  
+  .google-container {
+    font-size: 5.5em;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+
+    text-align: center;
+    flex-flow: column;
+  }
+  
+  
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+  
+  .google-container {
+    font-size: 3.5em;
+  }
+  
+  .button-container {
+    display: none;
+  }
+  
+  
+  
+}
+
+
+@media screen and (orientation:landscape) and (max-width: 800px) {
+  
+  
+}
+
